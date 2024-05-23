@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONNX Runtime Web Example on GPU</title>
+    <script src="https://cdn.jsdelivr.net/npm/onnxruntime-web@1.16.3/dist/ort.webgpu.min.js"></script>
+    <script src="opencv.js"></script>
+    <style>
+        #performance {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            color: #333;
+            background-color: #f4f4f4;
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin-top: 20px;
+            width: fit-content;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <img src="img/download.jpg" alt="Sample Image">
+    <img src="img/download.jpg" alt="Sample Image">
+    <img src="img/download.jpg" alt="Sample Image">
+    <img src="img/download.jpg" alt="Sample Image">
+    <img src="img/download.jpg" alt="Sample Image">
+
+    <div id="performance">
+        Time Elapsed: <span id="timeElapsed">0</span> sec
+    </div>
+    <script src="GPU.js"></script>
+</body>
+
+</html>
