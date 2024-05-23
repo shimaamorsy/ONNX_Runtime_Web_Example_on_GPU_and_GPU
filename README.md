@@ -28,7 +28,9 @@ This project demonstrates the performance differences between running ONNX Runti
      ```bash
      python3 -m http.server
 This will start a server on port 8000 by default.
+
 4.Open your web browser and navigate to http://localhost:8000.
+
 5.Explore the project and compare the performance of ONNX Runtime inference on CPU and GPU.
 
      
