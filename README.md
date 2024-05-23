@@ -32,4 +32,8 @@ This project demonstrates the performance differences between running ONNX Runti
 
 4. **Explore the project and compare the performance of ONNX Runtime inference on CPU and GPU.**
 
-     
+## Contributing
+
+Contributions are welcome! Please fork the repository, make your changes, and submit a pull request.
+
+## License
