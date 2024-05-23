@@ -19,18 +19,17 @@ This project demonstrates the performance differences between running ONNX Runti
 
 ### Setup
 
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/shimaamorsy/ONNX_Runtime_Web_Example_on_GPU_and_GPU.git
-   cd ONNX_Runtime_Web_Example_on_GPU_and_GPU
-2-Open the project directory in your preferred code editor.
-3-Start a local server. You can use Python's built-in HTTP server for this:
+1. **Open the project directory in your preferred code editor.**
+
+2. **Start a local server:**
+   - You can use Python's built-in HTTP server for this:
      ```bash
      python3 -m http.server
-This will start a server on port 8000 by default.
+     ```
+     This will start a server on port 8000 by default.
 
-4.Open your web browser and navigate to http://localhost:8000.
+3. **Open your web browser and navigate to [http://localhost:8000](http://localhost:8000).**
 
-5.Explore the project and compare the performance of ONNX Runtime inference on CPU and GPU.
+4. **Explore the project and compare the performance of ONNX Runtime inference on CPU and GPU.**
 
      
